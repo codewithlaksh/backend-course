@@ -1,0 +1,22 @@
+{
+  "name": "first-backend",
+  "version": "1.0.0",
+  "description": "This is my first backend with Express",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "backend"
+  ],
+  "author": "CodeWithLaksh",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
