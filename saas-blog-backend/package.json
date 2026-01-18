@@ -1,0 +1,20 @@
+{
+  "name": "saas-blog-backend",
+  "version": "1.0.0",
+  "description": "SaaS Blog App Backend Service",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
